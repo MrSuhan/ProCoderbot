@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       API_HASH = $API_HASH
-      API_ID = $API_ID
+      APP_ID = $API_ID
       ENV = $ENV 
       SESSION_NAME = $SESSION_NAME
       TG_BOT_TOKEN = $TG_BOT_TOKEN
