@@ -3,4 +3,9 @@ services:
   worker:
     build: .
     environment:
-      
+      ENV = $ENV 
+      SESSION_NAME = $SESSION_NAME
+      TG_BOT_TOKEN = $TG_BOT_TOKEN
+      BOT_USERNAME = $BOT_USERNAME
+      LOG_CHANNEL = $LOG_CHANNEL
+      AUTH_USERS = $AUTH_USERS
